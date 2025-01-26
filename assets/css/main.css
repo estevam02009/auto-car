@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+}
+footer {
+    width: 100%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    float: left;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav li {
+    float: left;
+}
+
+/* Smartphones */
+@media only screen and (max-width: 600px) {
+    nav {
+        height: 50px;
+    }
+    nav li {
+        width: 100%;
+    }
+}
+/* Tablets */
+@media only screen and (min-width: 600px) {
+    nav {
+        height: 80px;
+    }
+    nav li {
+        width: 100%;
+    }
+}
+/* Desktop */
+@media only screen and (min-width: 600px) {
+    nav {
+        height: 100px;
+        padding-left: 25%;
+    }
+    nav li {
+        width: 20%;
+        text-align: center;
+    }
+}
